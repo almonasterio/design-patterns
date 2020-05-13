@@ -61,5 +61,10 @@ class CodeBuilder
 
 
 let cb=new CodeBuilder('Person');
-cb.addField('name').addField('age');
+cb.addField('name')
+
+// 
+cb.addField('age')
+;
+console.log(cb)
 console.log(cb.toString())
